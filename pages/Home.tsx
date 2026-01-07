@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, BedDouble, Mic2, Utensils, Users, Sunrise, Mountain } from 'lucide-react';
 import { EXPERIENCES } from '../constants';
 
 const Home: React.FC = () => {
