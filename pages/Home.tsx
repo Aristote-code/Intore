@@ -17,7 +17,7 @@ const Home: React.FC = () => {
         {/* Background Image with Slow Zoom */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           <img 
-            src="https://images.unsplash.com/photo-1489447068241-b3490214e879?q=80&w=1920&auto=format&fit=crop" 
+            src="/images/hero-background.jpg"
             alt="Intore Learning Community Landscape" 
             className="w-full h-full object-cover animate-slow-zoom opacity-80"
           />
