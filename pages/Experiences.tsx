@@ -24,7 +24,7 @@ const Experiences: React.FC = () => {
       </div>
 
       {/* Filter Bar */}
-      <div className="sticky top-0 z-40 bg-white border-b border-brand-green/10">
+      <div className="sticky top-0 z-40 bg-brand-sand border-b border-brand-green/10">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-center space-x-2 md:space-x-6 overflow-x-auto">
           {categories.map(cat => (
             <button
@@ -46,7 +46,7 @@ const Experiences: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {filteredExperiences.map((exp) => (
-            <div key={exp.id} className="group bg-white flex flex-col h-full border border-brand-green/5 hover:border-brand-green/20 transition-all duration-300">
+            <div key={exp.id} className="group bg-brand-sand flex flex-col h-full border border-brand-green/5 hover:border-brand-green/20 transition-all duration-300">
               <div className="relative h-72 overflow-hidden">
                 <img src={exp.image} alt={exp.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 text-[10px] uppercase tracking-widest font-bold text-brand-green">

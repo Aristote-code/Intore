@@ -51,7 +51,7 @@ const Booking: React.FC = () => {
           {steps.map((s) => (
             <div key={s.num} className="flex flex-col items-center bg-brand-sand px-4">
               <div className={`w-8 h-8 flex items-center justify-center transition-colors border ${
-                step >= s.num ? 'bg-brand-green border-brand-green text-white' : 'bg-white border-brand-green/20 text-brand-green/40'
+                step >= s.num ? 'bg-brand-green border-brand-green text-white' : 'bg-brand-sand border-brand-green/20 text-brand-green/40'
               }`}>
                 {step > s.num ? <CheckCircle size={14} /> : <span className="text-xs">{s.num}</span>}
               </div>
@@ -61,7 +61,7 @@ const Booking: React.FC = () => {
         </div>
 
         {/* Form Container */}
-        <div className="bg-white p-8 md:p-12 shadow-sm border border-brand-green/5 min-h-[400px]">
+        <div className="bg-brand-sand p-8 md:p-12 shadow-sm border border-brand-green/5 min-h-[400px]">
           
           {/* Step 1: Dates & Group */}
           {step === 1 && (
@@ -90,7 +90,7 @@ const Booking: React.FC = () => {
               <div>
                 <label className="block text-[10px] uppercase tracking-widest font-bold text-brand-green mb-2">Group Size (Approx.)</label>
                 <select 
-                  className="w-full p-4 border border-brand-green/20 focus:border-brand-gold outline-none bg-white"
+                  className="w-full p-4 border border-brand-green/20 focus:border-brand-gold outline-none bg-brand-sand"
                   value={formData.adults}
                   onChange={e => setFormData({...formData, adults: parseInt(e.target.value)})}
                 >
@@ -150,7 +150,7 @@ const Booking: React.FC = () => {
                      <div className={`w-4 h-4 mt-1 border flex items-center justify-center flex-shrink-0 ${
                        formData.experiences.includes(exp.id) ? 'border-white' : 'border-brand-green/30'
                      }`}>
-                       {formData.experiences.includes(exp.id) && <div className="w-2 h-2 bg-white"></div>}
+                       {formData.experiences.includes(exp.id) && <div className="w-2 h-2 bg-brand-sand"></div>}
                      </div>
                      <div>
                        <h4 className={`font-serif text-sm ${formData.experiences.includes(exp.id) ? 'text-white' : 'text-brand-green'}`}>{exp.title}</h4>

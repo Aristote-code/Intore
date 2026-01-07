@@ -101,7 +101,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Facilities Grid - Minimalist Luxury */}
-      <section className="py-32 bg-white">
+      <section className="py-32 bg-brand-sand">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-end mb-16">
              <div>
