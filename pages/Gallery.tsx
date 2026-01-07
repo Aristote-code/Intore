@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { GALLERY_IMAGES } from '../constants';
+import { Link } from 'react-router-dom';
 
 const Gallery: React.FC = () => {
   const [activeTab, setActiveTab] = useState('All');
@@ -48,9 +49,9 @@ const Gallery: React.FC = () => {
 
         <div className="text-center mt-24">
           <p className="font-serif text-2xl text-brand-green mb-8 italic">Inspired by what you see?</p>
-          <a href="/#/book" className="bg-brand-green text-white px-10 py-4 text-xs uppercase tracking-widest hover:bg-brand-earth transition-colors">
+          <Link to="/book" className="bg-brand-green text-white px-10 py-4 text-xs uppercase tracking-widest hover:bg-brand-earth transition-colors">
             Book a Retreat
-          </a>
+          </Link>
         </div>
       </div>
     </div>

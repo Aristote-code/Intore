@@ -7,7 +7,7 @@ const About: React.FC = () => {
       {/* Hero */}
       <div className="relative h-[70vh] flex items-center justify-center">
         <img 
-          src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1920&auto=format&fit=crop" 
+          src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1920&auto=format&fit=crop" 
           alt="Rwanda Community Gathering" 
           className="absolute inset-0 w-full h-full object-cover grayscale opacity-50"
         />
@@ -49,7 +49,7 @@ const About: React.FC = () => {
         {/* Section 2: Image & Values */}
         <div className="relative mb-32">
            <div className="aspect-w-16 aspect-h-9 h-[600px] overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1920&auto=format&fit=crop" className="w-full h-full object-cover" alt="Community" />
+              <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb7d5c73?q=80&w=1920&auto=format&fit=crop" className="w-full h-full object-cover" alt="Community" />
            </div>
            <div className="lg:absolute lg:bottom-[-50px] lg:right-24 bg-brand-green text-brand-sand p-12 lg:max-w-xl shadow-2xl">
               <h3 className="font-serif text-3xl text-brand-gold mb-6">Our Core Values</h3>

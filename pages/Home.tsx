@@ -17,7 +17,7 @@ const Home: React.FC = () => {
         {/* Background Image with Slow Zoom */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           <img 
-            src="https://images.unsplash.com/photo-1489447068241-b3490214e879?q=80&w=1920&auto=format&fit=crop" 
+            src="https://images.unsplash.com/photo-1505232962135-26038144bb27?q=80&w=1920&auto=format&fit=crop" 
             alt="Intore Learning Community Landscape" 
             className="w-full h-full object-cover animate-slow-zoom opacity-80"
           />
@@ -64,7 +64,7 @@ const Home: React.FC = () => {
             <div className="lg:col-span-5 relative order-2 lg:order-1">
               <div className="relative z-10">
                  <img 
-                  src="https://images.unsplash.com/photo-1517013284022-798835f8d975?q=80&w=800&auto=format&fit=crop" 
+                  src="https://images.unsplash.com/photo-1503424886307-b090341d25d1?q=80&w=800&auto=format&fit=crop" 
                   alt="Village Path" 
                   className="w-full h-[600px] object-cover grayscale hover:grayscale-0 transition-all duration-1000 ease-out"
                 />
@@ -113,7 +113,7 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
              {/* Card 1 */}
              <Link to="/accommodation" className="group relative h-[600px] overflow-hidden block">
-                <img src="https://images.unsplash.com/photo-1587061949409-02df41d5e562?q=80&w=800&auto=format&fit=crop" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Accommodation" />
+                <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=800&auto=format&fit=crop" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Accommodation" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
                 <div className="absolute bottom-10 left-10 text-white">
                    <p className="text-brand-gold text-xs uppercase tracking-widest mb-2">Rest</p>
@@ -123,7 +123,7 @@ const Home: React.FC = () => {
 
              {/* Card 2 */}
              <Link to="/conferencing" className="group relative h-[600px] overflow-hidden block md:-mt-12">
-                <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=800&auto=format&fit=crop" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Conferencing" />
+                <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=800&auto=format&fit=crop" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Conferencing" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
                 <div className="absolute bottom-10 left-10 text-white">
                    <p className="text-brand-gold text-xs uppercase tracking-widest mb-2">Gather</p>
@@ -133,7 +133,7 @@ const Home: React.FC = () => {
 
              {/* Card 3 */}
              <Link to="/experiences" className="group relative h-[600px] overflow-hidden block">
-                <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=800&auto=format&fit=crop" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Experiences" />
+                <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=800&auto=format&fit=crop" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Experiences" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
                 <div className="absolute bottom-10 left-10 text-white">
                    <p className="text-brand-gold text-xs uppercase tracking-widest mb-2">Explore</p>

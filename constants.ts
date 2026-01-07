@@ -8,7 +8,7 @@ export const EXPERIENCES: Experience[] = [
     duration: 'Half-day',
     groupSize: '10-50',
     description: 'Interactive STEM and leadership workshops led by student facilitators from the youth village.',
-    image: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=800&auto=format&fit=crop' // Collaborative workshop
+    image: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=800&auto=format&fit=crop' // Collaborative workshop/students
   },
   {
     id: '2',
@@ -17,7 +17,7 @@ export const EXPERIENCES: Experience[] = [
     duration: '2 hours',
     groupSize: '5-20',
     description: 'Get your hands dirty and learn about sustainable permaculture practices in our working fields.',
-    image: 'https://images.unsplash.com/photo-1625246333195-58f214f76328?q=80&w=800&auto=format&fit=crop' // Agriculture/Green field
+    image: 'https://images.unsplash.com/photo-1592595896551-12b371d546d5?q=80&w=800&auto=format&fit=crop' // Agriculture/Green field
   },
   {
     id: '3',
@@ -26,7 +26,7 @@ export const EXPERIENCES: Experience[] = [
     duration: '2 hours',
     groupSize: '10-100',
     description: 'Experience the rhythm of Rwanda through Intore dance classes led by local cultural troops.',
-    image: 'https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?q=80&w=800&auto=format&fit=crop' // Joyful movement/culture
+    image: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=800&auto=format&fit=crop' // Joyful movement/culture
   },
   {
     id: '4',
@@ -35,7 +35,7 @@ export const EXPERIENCES: Experience[] = [
     duration: '1 hour',
     groupSize: '5-30',
     description: 'Start your day with mindfulness overlooking the rolling hills of Rwamagana.',
-    image: 'https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?q=80&w=800&auto=format&fit=crop' // Outdoor Yoga
+    image: 'https://images.unsplash.com/photo-1544367563-12123d8975bd?q=80&w=800&auto=format&fit=crop' // Outdoor Yoga
   },
   {
     id: '5',
@@ -44,7 +44,7 @@ export const EXPERIENCES: Experience[] = [
     duration: '2 hours',
     groupSize: 'Any',
     description: 'End the day connecting around the fire under the stars with stories of local history.',
-    image: 'https://images.unsplash.com/photo-1533575770077-052fa2c609fc?q=80&w=800&auto=format&fit=crop' // Bonfire
+    image: 'https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?q=80&w=800&auto=format&fit=crop' // Bonfire
   },
    {
     id: '6',
@@ -53,7 +53,7 @@ export const EXPERIENCES: Experience[] = [
     duration: '1.5 hours',
     groupSize: '5-50',
     description: 'Explore the flora and fauna of the Eastern Province on our secure campus trails.',
-    image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=800&auto=format&fit=crop' // Forest trail
+    image: 'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=800&auto=format&fit=crop' // Forest trail
   }
 ];
 
@@ -65,7 +65,7 @@ export const ACCOMMODATIONS: Accommodation[] = [
     capacity: '2-4 Guests',
     description: 'Private, comfortable brick cottages perfect for facilitators, families, or leadership teams seeking quiet.',
     amenities: ['Private Bath', 'Wifi', 'Veranda', 'Queen Bed', 'Work Desk'],
-    image: 'https://images.unsplash.com/photo-1587061949409-02df41d5e562?q=80&w=800&auto=format&fit=crop' // Brick house in nature
+    image: 'https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=800&auto=format&fit=crop' // Brick house/cozy room
   },
   {
     id: 'dm1',
@@ -74,7 +74,7 @@ export const ACCOMMODATIONS: Accommodation[] = [
     capacity: '16 Guests per unit',
     description: 'Clean, modern bunk-style lodging ideal for student groups, large teams, and budget-conscious travelers.',
     amenities: ['Shared Modern Bathrooms', 'Secure Lockers', 'Common Lounge', 'Sturdy Bunk Beds'],
-    image: 'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=800&auto=format&fit=crop' // Modern Dorm
+    image: 'https://images.unsplash.com/photo-1520277739336-7bf67edfa6c4?q=80&w=800&auto=format&fit=crop' // Modern Dorm/Bunk beds
   }
 ];
 
@@ -111,14 +111,14 @@ export const MEETING_SPACES = [
         name: 'Main Boardroom',
         capacity: '20 Pax',
         description: 'A focused space with natural light and climate control.',
-        image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop' // Modern meeting room
+        image: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=800&auto=format&fit=crop' // Modern meeting room
     },
     {
         id: 'm2',
         name: 'The Amphitheatre',
         capacity: '500 Pax',
         description: 'Open-air tiered seating for large gatherings, performances, or plenaries.',
-        image: 'https://images.unsplash.com/photo-1564510714747-6d32be4fd23d?q=80&w=800&auto=format&fit=crop' // Outdoor steps/theatre
+        image: 'https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?q=80&w=800&auto=format&fit=crop' // Outdoor steps/theatre
     },
     {
         id: 'm3',
@@ -130,12 +130,12 @@ export const MEETING_SPACES = [
 ];
 
 export const GALLERY_IMAGES = [
-  { id: 1, src: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop', category: 'Experiences' }, // People connecting
-  { id: 2, src: 'https://images.unsplash.com/photo-1489447068241-b3490214e879?q=80&w=800&auto=format&fit=crop', category: 'Nature' }, // Misty Hills
+  { id: 1, src: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=800&auto=format&fit=crop', category: 'Experiences' }, // People connecting
+  { id: 2, src: 'https://images.unsplash.com/photo-1505232962135-26038144bb27?q=80&w=800&auto=format&fit=crop', category: 'Nature' }, // Misty Hills / Tea
   { id: 3, src: 'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=800&auto=format&fit=crop', category: 'Gathering' }, // Team meeting view
   { id: 4, src: 'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=800&auto=format&fit=crop', category: 'Nature' }, // Agriculture field
-  { id: 5, src: 'https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=800&auto=format&fit=crop', category: 'Experiences' }, // Music
-  { id: 6, src: 'https://images.unsplash.com/photo-1587061949409-02df41d5e562?q=80&w=800&auto=format&fit=crop', category: 'Accommodation' }, // Brick building
-  { id: 7, src: 'https://images.unsplash.com/photo-1533575770077-052fa2c609fc?q=80&w=800&auto=format&fit=crop', category: 'Experiences' }, // Bonfire
-  { id: 8, src: 'https://images.unsplash.com/photo-1516214104703-d870798883c5?q=80&w=800&auto=format&fit=crop', category: 'Nature' }, // Aerial view
+  { id: 5, src: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=800&auto=format&fit=crop', category: 'Experiences' }, // Music/Dance
+  { id: 6, src: 'https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=800&auto=format&fit=crop', category: 'Accommodation' }, // Brick building
+  { id: 7, src: 'https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?q=80&w=800&auto=format&fit=crop', category: 'Experiences' }, // Bonfire
+  { id: 8, src: 'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=800&auto=format&fit=crop', category: 'Nature' }, // Aerial view/Forest
 ];

@@ -9,7 +9,7 @@ const Accommodation: React.FC = () => {
       {/* Header */}
       <div className="relative h-[60vh]">
          <img 
-           src="https://images.unsplash.com/photo-1587061949409-02df41d5e562?q=80&w=1920&auto=format&fit=crop" 
+           src="https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=1920&auto=format&fit=crop" 
            className="w-full h-full object-cover" 
            alt="Accommodation Hero"
          />

@@ -9,7 +9,7 @@ const Conferencing: React.FC = () => {
       {/* Hero */}
       <div className="relative h-[60vh]">
          <img 
-            src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=1920&auto=format&fit=crop" 
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1920&auto=format&fit=crop" 
             alt="Open air meeting space with view" 
             className="w-full h-full object-cover"
           />
