@@ -4,6 +4,13 @@ import { ArrowRight, BedDouble, Mic2, Utensils, Users, Sunrise, Mountain } from 
 import { EXPERIENCES } from '../constants';
 
 const Home: React.FC = () => {
+  const scrollToPhilosophy = () => {
+    const element = document.getElementById('philosophy');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="space-y-0">
       {/* Hero Section */}
@@ -35,12 +42,12 @@ const Home: React.FC = () => {
           </p>
           
           <div className="animate-fade-in-up delay-300 flex flex-col md:flex-row justify-center items-center gap-6">
-             <Link to="/book" className="bg-white text-brand-green px-10 py-4 text-xs uppercase tracking-widest hover:bg-brand-gold hover:text-white transition-all duration-500 min-w-[200px]">
+             <button 
+               onClick={scrollToPhilosophy}
+               className="text-white border border-white/30 px-10 py-4 text-xs uppercase tracking-widest hover:border-brand-gold hover:text-brand-gold transition-all duration-500 min-w-[200px]"
+             >
               Begin Journey
-            </Link>
-             <Link to="/experiences" className="text-white border border-white/30 px-10 py-4 text-xs uppercase tracking-widest hover:border-brand-gold hover:text-brand-gold transition-all duration-500 min-w-[200px]">
-              Explore Village
-            </Link>
+            </button>
           </div>
         </div>
         
@@ -52,7 +59,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Philosophy - Editorial Layout */}
-      <section className="py-32 bg-brand-sand">
+      <section id="philosophy" className="py-32 bg-brand-sand">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center">
             <div className="lg:col-span-5 relative order-2 lg:order-1">
@@ -121,7 +128,7 @@ const Home: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
                 <div className="absolute bottom-10 left-10 text-white">
                    <p className="text-brand-gold text-xs uppercase tracking-widest mb-2">Gather</p>
-                   <h3 className="font-serif text-4xl group-hover:translate-x-4 transition-transform duration-500">Conferencing</h3>
+                   <h3 className="font-serif text-4xl group-hover:translate-x-4 transition-transform duration-500">Gathering</h3>
                 </div>
              </Link>
 

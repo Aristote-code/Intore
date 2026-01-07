@@ -132,7 +132,7 @@ export const MEETING_SPACES = [
 export const GALLERY_IMAGES = [
   { id: 1, src: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop', category: 'Experiences' }, // People connecting
   { id: 2, src: 'https://images.unsplash.com/photo-1489447068241-b3490214e879?q=80&w=800&auto=format&fit=crop', category: 'Nature' }, // Misty Hills
-  { id: 3, src: 'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=800&auto=format&fit=crop', category: 'Conferencing' }, // Team meeting view
+  { id: 3, src: 'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=800&auto=format&fit=crop', category: 'Gathering' }, // Team meeting view
   { id: 4, src: 'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=800&auto=format&fit=crop', category: 'Nature' }, // Agriculture field
   { id: 5, src: 'https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=800&auto=format&fit=crop', category: 'Experiences' }, // Music
   { id: 6, src: 'https://images.unsplash.com/photo-1587061949409-02df41d5e562?q=80&w=800&auto=format&fit=crop', category: 'Accommodation' }, // Brick building

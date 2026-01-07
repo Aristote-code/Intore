@@ -3,7 +3,7 @@ import { GALLERY_IMAGES } from '../constants';
 
 const Gallery: React.FC = () => {
   const [activeTab, setActiveTab] = useState('All');
-  const tabs = ['All', 'Accommodation', 'Conferencing', 'Experiences', 'Nature'];
+  const tabs = ['All', 'Accommodation', 'Gathering', 'Experiences', 'Nature'];
 
   const displayedImages = activeTab === 'All' 
     ? GALLERY_IMAGES 

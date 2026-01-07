@@ -16,7 +16,7 @@ const Conferencing: React.FC = () => {
           <div className="absolute inset-0 bg-brand-green/40 mix-blend-multiply" />
           <div className="absolute inset-0 flex items-center justify-center text-center px-4">
              <div className="max-w-3xl">
-                <span className="uppercase tracking-[0.3em] text-xs font-bold text-white mb-4 block">Meetings & Events</span>
+                <span className="uppercase tracking-[0.3em] text-xs font-bold text-white mb-4 block">Gatherings & Events</span>
                 <h1 className="font-serif text-5xl md:text-6xl text-white mb-6">Meet with Purpose</h1>
                 <p className="text-white/90 text-lg font-light max-w-xl mx-auto">
                    Thoughtfully designed spaces that blend modern functionality with the serenity of nature.

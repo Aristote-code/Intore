@@ -18,8 +18,8 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'The Experience', path: '/experiences' },
-    { name: 'Accommodation', path: '/accommodation' },
-    { name: 'Conferencing', path: '/conferencing' },
+    { name: 'Retreat', path: '/accommodation' },
+    { name: 'Gathering', path: '/conferencing' },
     { name: 'Gallery', path: '/gallery' },
   ];
 
@@ -43,10 +43,10 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                     <div className="mb-[2px] mr-[1px]">
                          <Lightbulb 
                             size={28} 
-                            strokeWidth={2} 
-                            className={`transition-colors ${scrolled || isMenuOpen ? 'text-brand-green' : 'text-white'}`}
-                            fill={scrolled || isMenuOpen ? '#C9A050' : '#C9A050'} /* Warm Yellow Fill */
-                            color={scrolled || isMenuOpen ? '#1A2E26' : '#FFFFFF'} /* Outline matches text */
+                            strokeWidth={2.5} 
+                            className="transition-colors"
+                            fill="none" 
+                            color="#C9A050" /* Brand Gold/Brown Stroke */
                          />
                     </div>
                     <span className={`font-serif text-3xl font-bold tracking-widest uppercase transition-colors ${scrolled || isMenuOpen ? 'text-brand-green' : 'text-white'}`}>
@@ -148,7 +148,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               <div>
                  {/* Footer Logo */}
                  <div className="flex items-end leading-none mb-2 justify-center md:justify-start">
-                    <Lightbulb size={24} className="text-brand-sand mb-1 mr-1" fill="#C9A050" color="#F9F7F2" />
+                    <Lightbulb size={24} strokeWidth={2.5} className="mb-1 mr-1" fill="none" color="#C9A050" />
                     <span className="font-serif text-2xl font-bold tracking-widest uppercase text-brand-sand">NTORE</span>
                  </div>
                 <span className="text-[10px] uppercase tracking-[0.3em] text-brand-gold block">Learning Community</span>
@@ -165,9 +165,9 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             <div className="flex flex-col md:items-center">
               <h4 className="font-serif text-xl mb-8">Discover</h4>
               <ul className="space-y-4 font-light text-brand-sand/70 text-sm tracking-wide">
-                <li><Link to="/accommodation" className="hover:text-brand-gold transition-colors">Accommodation</Link></li>
+                <li><Link to="/accommodation" className="hover:text-brand-gold transition-colors">Retreat</Link></li>
                 <li><Link to="/experiences" className="hover:text-brand-gold transition-colors">Experiences</Link></li>
-                <li><Link to="/conferencing" className="hover:text-brand-gold transition-colors">Conferencing</Link></li>
+                <li><Link to="/conferencing" className="hover:text-brand-gold transition-colors">Gathering</Link></li>
                 <li><Link to="/packages" className="hover:text-brand-gold transition-colors">Offers</Link></li>
                 <li><Link to="/contact" className="hover:text-brand-gold transition-colors">Contact</Link></li>
               </ul>
