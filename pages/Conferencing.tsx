@@ -38,10 +38,10 @@ const Conferencing: React.FC = () => {
            
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
              {MEETING_SPACES.map((space) => (
-               <div key={space.id} className="group bg-white border border-brand-green/5 hover:border-brand-green/20 transition-all duration-500">
+               <div key={space.id} className="group bg-brand-sand border border-brand-green/5 hover:border-brand-green/20 transition-all duration-500">
                   <div className="h-64 overflow-hidden relative">
                     <img src={space.image} alt={space.name} className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" />
-                    <div className="absolute top-4 right-4 bg-white px-3 py-1 text-[10px] uppercase tracking-widest font-bold text-brand-green">
+                    <div className="absolute top-4 right-4 bg-brand-sand px-3 py-1 text-[10px] uppercase tracking-widest font-bold text-brand-green">
                        {space.capacity}
                     </div>
                   </div>
@@ -62,7 +62,7 @@ const Conferencing: React.FC = () => {
         <section>
            <h2 className="font-serif text-3xl text-brand-green mb-12 text-center">Curated Itineraries</h2>
            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-              <div className="bg-white p-10 border-t-2 border-brand-gold shadow-sm">
+              <div className="bg-brand-sand p-10 border-t-2 border-brand-gold shadow-sm">
                  <span className="text-brand-gold uppercase tracking-widest text-xs font-bold mb-4 block">1 Day</span>
                  <h3 className="font-serif text-2xl text-brand-green mb-6">Strategy Offsite</h3>
                  <ul className="space-y-4 text-sm text-brand-dark/70 font-light">
@@ -73,7 +73,7 @@ const Conferencing: React.FC = () => {
                     <li className="flex gap-4"><span className="font-bold text-brand-green w-16">16:00</span> Closing Wrap-up</li>
                  </ul>
               </div>
-              <div className="bg-white p-10 border-t-2 border-brand-green shadow-sm">
+              <div className="bg-brand-sand p-10 border-t-2 border-brand-green shadow-sm">
                  <span className="text-brand-gold uppercase tracking-widest text-xs font-bold mb-4 block">3 Days</span>
                  <h3 className="font-serif text-2xl text-brand-green mb-6">Leadership Retreat</h3>
                  <ul className="space-y-4 text-sm text-brand-dark/70 font-light">

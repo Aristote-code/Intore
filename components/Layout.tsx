@@ -30,7 +30,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       {/* Navigation */}
       <nav 
         className={`fixed top-0 w-full z-50 transition-all duration-500 ease-in-out border-b border-white/10 ${
-          scrolled || isMenuOpen ? 'bg-white shadow-sm py-4 border-brand-green/5' : 'bg-transparent py-6'
+          scrolled || isMenuOpen ? 'bg-brand-sand shadow-sm py-4 border-brand-green/5' : 'bg-transparent py-6'
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8">

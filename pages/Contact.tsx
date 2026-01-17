@@ -50,7 +50,7 @@ const Contact: React.FC = () => {
            </div>
 
            {/* Form */}
-           <div className="bg-white p-10 lg:p-12 shadow-sm border border-brand-green/5">
+           <div className="bg-brand-sand p-10 lg:p-12 shadow-sm border border-brand-green/5">
              <h3 className="font-serif text-2xl text-brand-green mb-8">Send a Message</h3>
              <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

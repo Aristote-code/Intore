@@ -17,7 +17,7 @@ const Packages: React.FC = () => {
         {/* Packages Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
           {PACKAGES.map((pkg, i) => (
-            <div key={pkg.id} className={`bg-white border flex flex-col p-8 lg:p-10 ${i === 1 ? 'border-brand-gold shadow-md relative' : 'border-brand-green/10'}`}>
+            <div key={pkg.id} className={`bg-brand-sand border flex flex-col p-8 lg:p-10 ${i === 1 ? 'border-brand-gold shadow-md relative' : 'border-brand-green/10'}`}>
                {i === 1 && <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-brand-gold text-white px-4 py-1 text-[10px] uppercase tracking-widest">Most Popular</div>}
                <div className="text-center mb-8 border-b border-brand-green/10 pb-8">
                  <span className="text-[10px] uppercase tracking-widest text-brand-dark/40 block mb-2">{pkg.targetAudience}</span>
